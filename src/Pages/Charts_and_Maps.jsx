@@ -90,7 +90,7 @@ const Dashboard = () => {
 
         {
           chartData.datasets ?
-            <Line data={chartData} /> : <h1 className="text-pink-600 mb-4 font-bold text-2xl">Loading...</h1>
+            <Line data={chartData} /> : <h1 className="text-pink-600 mb-4 font-bold text-2xl">Chart is being Loaded hang on...</h1>
         }
 
 
