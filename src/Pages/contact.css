@@ -1,0 +1,53 @@
+.rounded-btn{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    width: 200px;
+    min-height:50px ;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.rounded-btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.text-h1{
+    color: black;
+}
+.header{
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.dash{
+    color: white;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.dash h2{
+    cursor: pointer;
+}
+
+.list{
+    background-color:transparent;
+    color: black;
+}
+
+.co:hover{
+    color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+}
